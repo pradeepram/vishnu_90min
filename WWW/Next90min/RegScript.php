@@ -15,5 +15,6 @@ $exp1  = (string) $_GET["password1"];
 		
 		
 		echo $check_result;
+		echo json_encode($base);
 		return $base;
 ?>
